@@ -1,0 +1,60 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*/
+
+body {
+    /*background-image: linear-gradient(to bottom right, #0B60B0, #003350);*/
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-line-of-metal-silos-in-a-farm-field-image_2971464.jpg);
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    text-align: center;
+    margin: 30px auto;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+button {
+    display: flex;
+    width: 25%;
+    margin: 5px auto;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 2px solid #000000; /* Apply border to all screen sizes */
+    background-color: #3062b0;
+    color: #fff;
+}
+
+button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+h1 {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;  
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}

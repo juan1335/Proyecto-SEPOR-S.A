@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block menu %}
+    <h1>MENU GENERAL DE ALIMENTACION</h1>
+    <div class="menu">
+        <a href="{% url 'compramatpr' %}"><button id="button1">1. Listados compras de mat.prima</button></a>
+        <a href="{% url 'materiaprima' %}"><button id="button2">2. Listado materia primas </button></a> 
+        <a href="{% url 'listafabricacion' %}"><button id="button4">3. Listado de fabricaciones </button></a> 
+        <a href="{% url 'formulas' %}"><button id="button6">4. Listado de formulas </button></a> 
+        <a href="{% url 'formapago' %}"><button id="button7">5. Listado de formas de pago </button></a> 
+        <a href="{% url 'inicio' %}"><button id="button9">6. Volver a menu principals </button></a> 
+    </div>
+{% endblock %}

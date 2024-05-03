@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block menu %}
+    <h1>MENU GENERAL DE ALIMENTACION</h1>
+    <div class="menu">
+        <a href="{% url 'ficheros' %}"><button id="button1">1. Listados de Ficheros <i class="fa-solid fa-bars" style="font-size:25px;margin-left: 85px;"></i></button></a>
+        <a href="{% url 'materiapr' %}"><button id="button2">2. Compras de Materias Primas <i class="fa-solid fa-wheat-awn" style="font-size:25px; margin-left: 25px;"></i> </button></a> 
+        <a href="{% url 'fabricacion' %}"><button id="button4">3. Fabricacion <i class="fa-solid fa-plate-wheat" style="font-size:25px; margin-left: 145px;"></i></button></a> 
+        <a href="{% url 'entinventario' %}"><button id="button6">4. Entrada de Inventarios <i class="fa-solid fa-warehouse" style= "font-size:20px; margin-left: 70px;"></i> </button></a> 
+        <a href="{% url 'escandallo' %}"><button id="button7">5. Escandallo de Formulas <i class="fa-solid fa-rotate-left" style= "font-size:25px; margin-left: 60px;"></i></button></a> 
+        <a href="{% url 'mantficheros' %}"><button id="button9">6. Mantenimiento de Ficheros <i class="fa-solid fa-screwdriver-wrench" style= "font-size:25px; margin-left: 40px;"></i></button></a> 
+    </div>
+{% endblock %}
